@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<android.support.design.widget.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fl_music"
+    android:clickable="true"
+    android:src="@drawable/btnmusic"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="180dp"
+    android:visibility="invisible"
+
+    />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fl_movie"
+        android:clickable="true"
+        android:src="@drawable/btnmovie"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="50dp"
+        android:visibility="invisible"
+
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fl_login"
+        android:clickable="true"
+        android:src="@drawable/btnlogin"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="180dp"
+        android:visibility="invisible"
+
+        />
+
+</FrameLayout>

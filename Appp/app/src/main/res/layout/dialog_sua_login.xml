@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#f0f0"
+        android:textSize="30sp"
+        android:text="Cập nhật Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/editTextUser"
+        android:hint="User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/editTextPass"
+        android:hint="Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận"
+            android:id="@+id/btnEdit"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:id="@+id/btn_Exit_edit"/>
+    </LinearLayout>
+</LinearLayout>

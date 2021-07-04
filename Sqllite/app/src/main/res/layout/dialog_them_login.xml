@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+<TextView
+    android:id="@+id/textThem"
+    android:textSize="30sp"
+    android:textColor="#ff00"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Thêm Login"/>
+
+    <EditText
+        android:id="@+id/edTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textThem"
+        android:layout_marginTop="10dp"
+        android:hint="User" />
+    <EditText
+        android:id="@+id/edTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edTextUser"
+        android:layout_marginTop="10dp"
+        android:hint="Pass" />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/edTextPass"
+        android:text="Thêm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnExit_add"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edTextPass"
+        android:text="Hủy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

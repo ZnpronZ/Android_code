@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_bg_blue">
+
+    <ImageView
+        android:id="@+id/IMG_casi"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/txt_casi"
+        android:textSize="30dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:gravity="center_vertical"
+        android:layout_width="309dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="-2dp" />
+
+</RelativeLayout>
